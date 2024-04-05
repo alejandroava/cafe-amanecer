@@ -25,14 +25,18 @@
         </navbar>
     </header>
     <main>
-        <section class="about__us__container">
+        <div class="main__image">
+            <h3>Un despertar lleno de energia</h3>
+            <button class="main__btn">Hacer pedido</button>
+        </div>
+        <section class="about__us__container" id="about__us__container">
             <article class="about__us__content">
                 <figure class="about__us__img"> 
                     <img src="assets/images/staff2.jpg" alt="">
                 </figure>
                 <div class="about__us__info">
-                    <h1>Quienes somos</h1>
-                    <h2>Bienvenidos a esta gran experiencia</h2>
+                    <h2>Quienes somos</h2>
+                    <h3>Bienvenidos a esta gran experiencia</h3>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi animi ab eos ut sunt fugit ipsum illo quis eveniet maxime doloribus, corporis, tempora atque nisi esse numquam fugiat error provident!
                     Sapiente sunt atque labore magnam quaerat quia dolorum cumque numquam, ratione odio accusamus neque repellendus veritatis deleniti, in alias? Quos minima nesciunt recusandae nam mollitia pariatur tenetur facere aliquam enim.
                     Non fugit, dolore quis minima porro commodi nostrum deleniti, iusto ab, cumque vero! Commodi, ullam, eos labore voluptates accusantium nam deleniti reiciendis voluptatem nesciunt illo ipsa debitis perspiciatis a laudantium!
@@ -43,7 +47,7 @@
         
         <section>
             <h2>Testimonios</h2>
-            <div class="flex__container" >
+            <div class="flex__container" id="flex__container">
                 <article class="testimonial__content">
                     <figure class="testimonial__img">
                         <img src="/assets/images/customer1.jpg" alt="">
@@ -73,40 +77,48 @@
                 </article>
             </div>
         </section>
-        <section class="staff__container">
+
+        <h2 class="staff__title">Staff</h2>
+        <section class="staff__container" id="staff__container">
+            
             <article class="staff__content">
-                <figure class="staff__gallery">
-                    <img src="assets/images/carlos-ceo.jpg" alt="" class="staff__img">
+                <img src="assets/images/carlos-ceo.jpg" alt="" class="staff__img">
+                <!-- <div class="overlay"> -->
                     <h3 class="title__img">Carlos CEO</h3>
-                </figure>
-                <figure class="staff__gallery">
-                    <img src="assets/images/daniel-cto.jpg" alt="" class="staff__img">
+                </div>
+            </article>
+            <article class="staff__content">
+                <img src="assets/images/daniel-cto.jpg" alt="" class="staff__img item2">
+                <!-- <div class="overlay"> -->
                     <h3 class="title__img">Daniel CTO</h3>
-                </figure>
-            
-                <figure class="staff__gallery">
-                    <img src="assets/images/carmen-administradora.jpeg" alt="" class="staff__img" >
+                </div>
+            </article>
+            <article class="staff__content">
+                <img src="assets/images/carmen-administradora.jpeg" alt="" class="staff__img" >
+                <div>
                     <h3 class="title__img">Carmen Administradora</h3>
-                </figure>
-               
-            
-                <figure class="staff__gallery">
-                    <img src="assets/images/juan-barista.jpg" alt="" class="staff__img">
+                </div>
+            </article>
+            <article class="staff__content">
+               <img src="assets/images/juan-barista.jpg" alt="" class="staff__img">
+               <div>
                     <h3 class="title__img">Juan Barista</h3>
-                </figure>
-            
-                <figure class="staff__gallery">
-                    <img src="assets/images/esther-barista.jpg" alt="" class="staff__img">
+                </div>
+            </article>
+            <article class="staff__content">
+                <img src="assets/images/esther-barista.jpg" alt="" class="staff__img">
+                <div>
                     <h3 class="title__img">Esther Barista</h3>
-                </figure>
-            
-                <figure class="staff__gallery">
-                    <img src="assets/images/carlos-barista.jpg" alt="" class="staff__img">
+                </div>
+            </article>
+            <article class="staff__content">
+                <img src="assets/images/carlos-barista.jpg" alt="" class="staff__img">
+                <div>
                     <h3 class="title__img">Carlos Barista</h3>
-                </figure>
+                </div>
             </article>
         </section>
-        <section class="usual__customers__container">
+        <section class="usual__customers__container" id="usual__customers__container">
             <h2>Clientes frecuentes</h2>
             <article class="usual__customers__content">
                 <figure class="usual__customers__img">
@@ -126,7 +138,69 @@
                 </figure>
             </article>
         </section>
+        <section>
+            <h2>Muestra de productos</h2>
+            <article class="grid__product" id="grid__product">
+                <figure class="product__container">
+                    <img src="assets/images/cafe-grano.jpg" alt="" class="product__img">
+                    <figcaption class="product__description">Grano de cafe</figcaption>
+                </figure>
+                <figure class="product__container">
+                    <img src="assets/images/cafe-caliente.jpg" alt="" class="product__img">
+                    <figcaption class="product__description">Cafe caliente</figcaption>
+                </figure>
+                <figure class="product__container">
+                    <img src="assets/images/cafe-frio.jpg" alt="" class="product__img">
+                    <figcaption class="product__description">Cafe frio</figcaption>
+                </figure>
+                <figure class="product__container">
+                    <img src="assets/images/torta.jpg" alt="" class="product__img">
+                    <figcaption class="product__description">Tortas de cafe</figcaption>
+                </figure>
+                <figure class="product__container">
+                    <img src="assets/images/sandwiches.jpg" alt="" class="product__img">
+                    <figcaption class="product__description">Sandwiches</figcaption>
+                </figure>
+            </article>
+        </section>
     </main>
+    <footer class="grid__footer">
+        <article class="footer__content">
+            <h3>Nuestras politicas</h3>
+            <ul class="footer__list">
+                <li class="footer__list__item">Politica de privacidad</li>
+                <li class="footer__list__item">Terminos y condiciones</li>
+                <li class="footer__list__item">Terminos de servicio</li>
+                <li class="footer__list__item">Politica devolucion y reembolso</li>
+            </ul>
+            <p>Copyright © 2024 Cafe amanecer . Todos los derechos reservados.</p>
+        </article>
+        <article class="footer__form">
+            <form action="">
+                <input type="email" name="email" placeholder="Ingrese su email">
+                <button class="footer__btn">Enviar</button>
+            </form>
+        </article>
+        <article class="footer__content">
+            <h3>Secciones</h3>
+            <ul class="footer__list">
+                <li class="footer__list__item"><a href="#about__us__container">Sobre nosotros</a></li>
+                <li class="footer__list__item"><a href="#flex__container">Testimonios</a></li>
+                <li class="footer__list__item"><a href="#staff__container">Staff</a></li>
+                <li class="footer__list__item"><a href="#usual__customers__container">Clientes frecuentes</a></li>
+                <li class="footer__list__item"><a href="#grid__product">Muestra de producto</a></li>
+            </ul>
+        </article>
+        <article class="footer__contact">
+            <h3>Informacion de contacto</h3>
+            <p>Email: contacto@cafeamanecer.com</p>
+            <div class="footer__logos">
+                <img src="assets/logos/facebook.png" alt="">
+                <img src="assets/logos/instragram.png" alt="">
+                <img src="assets/logos/twitter.webp" alt="">
+            </div>
+        </article>
+    </footer>
 
     
     
